@@ -5,8 +5,8 @@ export const Header: React.FC = () => (
     <header>
         <h1>Meliora</h1>
         <nav>
-            <Link to="/">About</Link>
-            <Link to="/convert">Converter</Link>
+            <Link to="/">Converter</Link>
+            <Link to="/about">About</Link>
         </nav>
     </header>
 );
