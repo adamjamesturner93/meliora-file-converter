@@ -55,6 +55,47 @@ main {
     }
 }
 
+.converter-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 3%;
+    margin: 3%;
+    border: 1px solid $contrast-color;
+
+    section {
+        margin: 7px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+        button {
+            background-color: red;
+            height: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    button {
+        padding: 3%;
+        background-color: $contrast-color;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.fill {
+    flex: 1;
+    height: 100%;
+}
+
 footer {
     display: flex;
     flex: 0.05;
